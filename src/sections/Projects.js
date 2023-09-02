@@ -1,11 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
-// import Image from "next/image";
-import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
-import Button from "../partials/Button";
 import '../scss/sections/projects.scss'
-import { CgWebsite } from "react-icons/cg";
 import mpm from '../assets/mpm.png';
 import elixir from '../assets/elixir.png';
 

@@ -1,9 +1,7 @@
 import React from "react";
-// import {Link} from "react-router-dom";
 import Button from "../partials/Button";
 import { motion } from "framer-motion";
 import '../scss/sections/hero.scss';
-// import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Hero = () => {
   return (

@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import {Link} from "react-router-dom";
-// import Image from "next/image";
 import '../scss/sections/about.scss';
 import { motion } from "framer-motion";
 import profile from '../assets/profile.jpeg';
@@ -41,12 +39,7 @@ const About = () => {
             Hello! I am Pratyugna, a full time web developer, and a part time gamer. Currently I am pursuing my Btech degree
             on Information Technology. As a enthusiastic developer I love traversing the upcoming range of technologies in my free time.
 
-            {/* Hello! My name is Pratyugna Manna and I like making things for the web.
-            Currently I am pursuing my B.Tech degree on Information Technology
-            from the Institute of Enginnering and Management, Kolkata. My
-            interest in Web Development started back in 2021. At the very
-            beginning I got my hands on HTML/CSS and JAVASCRIPT and from there
-            my journey began. */}
+          
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I had the privilege to work with at an amazing

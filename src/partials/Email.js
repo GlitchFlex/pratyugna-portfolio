@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
 import '../scss/components/email.scss'
 

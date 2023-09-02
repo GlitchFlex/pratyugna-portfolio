@@ -1,8 +1,7 @@
 'use client'
 
 import React from "react";
-import {Link} from "react-router-dom";
-import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { motion } from "framer-motion";
 import '../scss/components/socialIcons.scss';
 
