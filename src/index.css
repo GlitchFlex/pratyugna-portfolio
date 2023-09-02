@@ -1,0 +1,16 @@
+/* @import "variables";
+@import "globals";
+@import "main";
+
+@import "./components/index";
+@import "./sections/index";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'); */
+
+@import "./scss/variables.scss";
+@import "./scss/globals.scss";
+@import "./scss/components/index.scss";
+@import "./scss/sections/index.scss";
+/* @import "./scss/main.scss"; */
+
+

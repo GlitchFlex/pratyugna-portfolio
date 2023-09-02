@@ -1,0 +1,25 @@
+:root {
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --background-color: #1a1a1a;
+  --lightest-navy: #dbf7a65f;
+  --light-navy: #343434;
+  --dark-slate: aliceblue;
+  --light-slate: #950746;
+  --slate: #bd972a;
+  --lightest-slate: #C3073F;
+  --theme-color: #FFCF43;
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --tx2large: 32px;
+  --tgiant: clamp(40px, 8vw, 70px);
+  --fira-code: 'Fira Code', monospace;
+  --raleway: 'Raleway', sans-serif;
+  @media screen and (max-width: 480px) {
+    --tx2large: 25px;
+  }
+}

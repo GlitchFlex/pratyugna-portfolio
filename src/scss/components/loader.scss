@@ -1,0 +1,50 @@
+$blue: rgb(0,155,255);
+
+.box{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jawn {
+  position: relative;
+  background-color: #F8E71C;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  
+  &:after, &:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  &:after {
+    left: -25px;
+    top: -26px;
+    background-color: var(--light-slate);
+    transform-origin: 50px 50px;
+    animation: axis 1s linear infinite;
+  }
+  &:before {
+    left: -25px;
+    top: -72px;
+    background-color: $blue;
+    transform-origin: 46px 95px;
+    animation: axis 2s linear infinite;
+  }
+}
+
+@keyframes axis {
+  0% {
+    transform: rotateZ(0deg) translate3d(0,0,0);
+  }
+  100% {
+    transform: rotateZ(360deg) translate3d(0,0,0);
+  }
+}
