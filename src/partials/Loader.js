@@ -1,9 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-// import Logo from "./Logo";
-import {MutatingDots} from 'react-loader-spinner';
-// import { AnimatePresence, motion } from "framer-motion";
+import React, { useEffect } from "react";
 import '../scss/components/loader.scss';
 
 

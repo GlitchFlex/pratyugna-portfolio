@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
 import '../scss/sections/experiences.scss'
@@ -7,24 +7,10 @@ import '../scss/sections/experiences.scss'
 const Experience = () => {
   const [selected, setSelected] = useState(0);
 
-  // useEffect(() => {
-  //   const transformSelected = () => {
-  //     const underlineElement = document.querySelector<HTMLElement>(".underline");
-  //     if (underlineElement) {
-  //         underlineElement.style.top = `${selected * 4}rem`;
-  //     } else {
-  //         console.warn("Element with class 'underline' not found.");
-  //     }
-  // };
+  
 
 
-  //   setTimeout(()=>{
-  //     transformSelected();
-  //     console.log("after 4 sec");
-  //   }, 4000);
-  //   transformSelected();
-  // }, [selected]);
-
+  
   const experiences = [
     {
       name: "MindWebsVenture",

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import '../scss/sections/projects.scss'
 import mpm from '../assets/mpm.png';
 import elixir from '../assets/elixir.png';
+import scriptor from '../assets/scriptor collage.png';
 
 
 
@@ -26,6 +27,16 @@ const Projects = () => {
       projectDescription:
         "This project is built to portray the statistics of another application through a beautiful UI",
       projectTech: ["ReactJs", "D3.js"],
+      projectExternalLinks: {
+      },
+    },
+    {
+      image: scriptor,
+      projectName: "Scriptor",
+      projectLink: "https://github.com/GlitchFlex/scriptor",
+      projectDescription:
+        "This project is a platform which enables users to write their own HTML, CSS, JS code and feed their inner passion for frontend development. Users can easily login with their google or github account and create their drafts. They can even explore public drafts created by other users on the platform. ",
+      projectTech: ["ReactJs", "Redux Toolkit", "node js", "passport js"],
       projectExternalLinks: {
       },
     },
@@ -72,7 +83,7 @@ const Projects = () => {
                     hidden: { opacity: 0, y: 0 },
                   }}
                 >
-                  <Link to={projectLink} target="_blank">
+                  <a href={projectLink} target="_blank">
                     <div className="project-image">
                       <div className="project-image-overlay"></div>
                       <div className="project-image-container">
@@ -85,7 +96,7 @@ const Projects = () => {
                         />
                       </div>
                     </div>
-                  </Link>
+                  </a>
                   <div className="project-info">
                     <p className="project-info-overline">Featured Project</p>
                     <Link

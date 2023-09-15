@@ -1,7 +1,5 @@
 import {Link} from "react-router-dom";
 import React, { useEffect, useState } from "react";
-// import { FaRegStar } from "react-icons/fa";
-// import { FiGitBranch } from "react-icons/fi";
 
 function Footer() {
   const [githubInfo, setGitHubInfo] = useState({
